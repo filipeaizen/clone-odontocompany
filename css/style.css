@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: sans-serif;
+}
+/* --------------------------- PRIMEIRO MENU --------------------------------------------- */
+.box-menu{
+    width: 100%;
+    height: 40px;
+    background-color: #166c67;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.link-menu{
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+    font-size: 12px;
+}
+.socials{
+    margin-right: 350px;
+}
+.social{
+    margin-left: 30px;
+    width: 15px;
+}
+#youtube{
+    width: 20px;
+}
+/* ------------------------------------- SEGUNDO MENU ---------------------------------- */
+.box-menu-principal{
+    width: 100%;
+    height: 100px;
+    background-color: #19916e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    margin-right: 150px;
+    font-size: 40px;
+}
+strong{
+    color: greenyellow;
+}
+.menu-principal{
+    color: white;
+    margin-right: 80px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.search{
+    width: 50px;
+}
+.menu-principal:hover{
+    text-decoration: underline;
+}
+/* ------------------------------------------------- IMAGEM ME BAIXO DO MENU ------------------------ */
+
+.smile-bg{
+    width: 100%;
+}
+.smile{
+    width: 100%;
+}
+/* ------------------------------------------------ TITULO E TEXTO ------------------------------------ */
+.odonto-play{
+    color: #166c67;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 40px;
+}
+.atendimento{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #777777;
+    text-align: center;
+}
+/* ---------------------------------------------- VIDEOS --------------------------------------------- */
+
+.box-videos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.video-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.video-secundario{
+    display: flex;
+    flex-direction: column;
+}
+.video-secundario iframe{
+    
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* ----------------------------------------- BUTTON -------------------------------------------- */
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.agendar-avaliacao{
+    width: 250px;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    background-color: #ffdf00;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 200px;
+}
